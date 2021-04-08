@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html, body, h1{
+	margin: 0;
+	padding: 0;
+    background: 0 0;
+    font-family: 'Poppins', serif;
+}
+.hero {
+    height: 300px;
+    position: relative;
+}
+
+.header {
+	position: relative; 
+    mask: url("../images/bg-mask.svg");
+    -webkit-mask: url("../images/bg-mask.svg");
+    background-image: radial-gradient(circle at 51% 111%,#1285f3,#003a99 86%);
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    padding: 50px;
+
+}
+
+.header-inner {
+    overflow: hidden;
+}
+
+.bg-header {
+left: 0;
+max-width: none;
+opacity: .2;
+bottom: -64px;
+left: 0;
+width: 100%;
+mix-blend-mode: luminosity;
+cursor: pointer;
+position: absolute;
+}
+
+.header-content {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-content h1 {
+    font-size: 180px;
+    color: white;
+    margin-left: 50px;
+    line-height: 150px;
+    font-weight: bold;
+}
+
+.header-content p {
+    margin-top: -20px;
+    color: white;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+#bd-icon {
+    position: absolute;
+    right: 10%;
+    width: 25%;
+    bottom: -15%;
+}
+
+
+.expo {
+    padding: 20px;
+}
+
+.internal-link {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.grid {
+    display: flex;
+}
+
+.card {
+    padding-right: 1rem;
+    display: flex;
+    max-width: 345px;
+    height: 265px;
+    min-width: auto;
+    border: 1px solid rgba(36,37,38,.08);
+    box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+    background-color: rgba(255,255,255,1);
+    border-radius: .9rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    color: rgba(34,41,47,1);
+    position: relative;
+    transition: all 1s;
+}
+
+.card .left {
+    box-shadow: rgb(0 0 0 / 17%) 0px 4px 9px 0px;
+    width: 80px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: .9rem;
+}
+
+.card .left div {
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    line-height: 1;
+    font-size: .63rem;
+    border-radius: 9999px;
+    background-color: rgba(0,0,0,.1);
+    transition: background-color .3s,border .3s;
+    text-decoration: none;
+    transition: none 86ms ease-out;
+}
+
+.card .right {
+    position: relative;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+}
+
+.card .right {
+    font-size: 10px;
+}
+.card .right p {
+    margin: 0;
+}
+
+.blue-gradient {
+    background: linear-gradient(180deg,#21c8f6,#637bff);
+}
+
+.orange-gradient {
+    background: linear-gradient(0deg,#f19a1a,#ffc73c);
+}
+
+.green-gradient {
+    background: linear-gradient(180deg,#6edcc4,#1aab8b);
+}
+
+footer p {
+    text-align: center;
+    margin:0;
+    font-size: 9px;
+}
+
+
+footer {
+    color: white;
+    position: relative; 
+    background-image: radial-gradient(circle at 51% 111%,#1285f3,#003a99 86%);
+    padding: 20px;
+    padding-bottom: 5px ;
+    mask: url("../images/footer.svg");
+    -webkit-mask: url("../images/footer.svg");
+    background-image: radial-gradient(circle at 51% 111%,#1285f3,#003a99 86%);
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+   
+}
+
+footer .bg-header{
+    bottom: 0;
+}
