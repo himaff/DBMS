@@ -200,5 +200,9 @@ footer .bg-header{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1rem;
+	max-width: 100%;
     }
+	
+.grid .card .left {
+	width: 150px;
 }
