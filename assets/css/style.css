@@ -190,3 +190,15 @@ footer {
 footer .bg-header{
     bottom: 0;
 }
+
+@media screen and (max-width: 1170px) {
+    .grid {
+        flex-direction: column;
+    }
+
+    .grid .card {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+}
